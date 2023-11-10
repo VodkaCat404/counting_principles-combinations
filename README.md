@@ -11,10 +11,6 @@ En el contexto de nuestra clase de Matemáticas Discretas, hemos decidido desarr
 
 * Cálculo de combinaciones: Los usuarios pueden ingresar un conjunto de elementos y la cantidad de elementos que desean seleccionar, y la aplicación calculará y mostrará la cantidad de combinaciones posibles.
 
-* Representación en lista: Además del cálculo, la aplicación mostrará una lista de todas las combinaciones posibles, lo que ayuda a los usuarios a comprender mejor los resultados.
-
-* Representación en árbol: Para una visualización más intuitiva, la aplicación generará un árbol que muestra cómo se derivan las combinaciones, lo que facilita la comprensión de los principios de conteo.
-
 ! Tecnologías Utilizadas
 
 React, HTML, CSS, JavaScript y TailWindCss
@@ -26,7 +22,7 @@ React, HTML, CSS, JavaScript y TailWindCss
 3. Ejecuta la aplicación localmente.
 4. Abre tu navegador y accede a la aplicación web.
 5. Ingresa el conjunto de elementos y el número de elementos a seleccionar.
-6. Calcula las combinaciones y observa la lista y el árbol de combinaciones posibles.
+6. Calcula las combinaciones.
 
 # Contribuciones
 
@@ -38,6 +34,45 @@ Cesar Josue Soto Langarica / VodkaCat404
 
 ## Licencia
 
-Este proyecto está bajo la Licencia de Uso No Comercial y Atribución. Consulta el archivo LICENSE.txt para obtener más detalles.
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE.txt para obtener más detalles.
+
+-->
+<!--
+# Discrete Mathematics Project - Combinations Calculator
+
+This project aims to apply the principles of discrete mathematics through a web application that allows users to calculate and visualize possible combinations for a set of elements.
+
+? Project Description
+
+In the context of our Discrete Mathematics class, we have decided to develop a web application that focuses on counting principles, in particular the product rule and combinations. The application will allow users to enter a set of elements and a number of elements to select, and then calculate the number of possible combinations.
+
+# Features.
+
+* Calculation of combinations: Users can enter a set of items and the number of items to select, and the application will calculate and display the number of possible combinations.
+
+! Technologies Used
+
+React, HTML, CSS, JavaScript and TailWindCss
+
+? How to Use the Application
+
+1. Clone this repository on your local machine.
+2. Install the dependencies if necessary.
+3. Run the application locally.
+4. Open your browser and access the web application.
+5. Enter the set of elements and the number of elements to select.
+6. Calculate the combinations.
+
+# Contributions
+
+This project is part of our Discrete Mathematics course. If you wish to contribute or improve this application, you are welcome to do so. Please follow development best practices and create a pull request with your changes.
+
+# Author
+
+Cesar Josue Soto Langarica / VodkaCat404
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE.txt file for more details.
 
 -->

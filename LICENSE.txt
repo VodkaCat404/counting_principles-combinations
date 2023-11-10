@@ -1,31 +1,7 @@
-Licencia de Uso No Comercial y Atribución (Versión 1.0)
+Copyright (c) 2023 Cesar Josue Soto Langarica
 
-Este software y su documentación están protegidos por derechos de autor y están sujetos a los términos y condiciones de esta Licencia de Uso No Comercial y Atribución ("Licencia"). Al utilizar este software, usted acepta los términos y condiciones de esta Licencia.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-1. Uso No Comercial:
-   Está permitido utilizar este software únicamente para fines no comerciales. Queda prohibido utilizar este software o cualquier parte del mismo con fines comerciales, lo que incluye, entre otros, la venta, el alquiler, la sublicencia o cualquier forma de lucro económico.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-2. Atribución:
-   Si utiliza este software o cualquier parte del mismo en su proyecto, producto o servicio, está obligado a proporcionar una atribución adecuada al autor original. La atribución debe incluir el nombre del autor y un enlace a la ubicación original del software.
-
-Ejemplo de atribución:
-"Este software utiliza recursos, creado por [Cesar Josue Soto Langarica], disponible en [https://github.com/VodkaCat404/counting_principles-combinations]."
-
-3. Distribución:
-   Puede distribuir este software, siempre que lo haga sin fines comerciales y respetando los términos de esta Licencia. Debe proporcionar a los destinatarios una copia de esta Licencia y asegurarse de que comprendan y cumplan con sus términos.
-
-4. Modificaciones:
-   Puede realizar modificaciones en este software para su uso personal o para su propio proyecto, pero no puede distribuir las versiones modificadas de este software sin el permiso explícito del autor original.
-
-5. Renuncia de Garantía:
-   Este software se proporciona "tal cual", sin garantía de ningún tipo, ya sea expresa o implícita, incluyendo, pero no limitándose a, las garantías implícitas de comerciabilidad, idoneidad para un propósito particular y no infracción. El autor no se hace responsable de ningún daño o pérdida relacionada con el uso de este software.
-
-6. Cambios en la Licencia:
-   El autor se reserva el derecho de modificar los términos de esta Licencia en cualquier momento. Las versiones posteriores de este software estarán sujetas a los términos de la Licencia actualizada.
-
-Para obtener permisos adicionales que no se mencionan en esta Licencia, contáctese con el autor en [cesarsoto123789456@gmail.com].
-
-Esta Licencia entra en vigencia a partir de [Fecha de Inicio de la Licencia].
-
-Cesar Josue Soto Langarica
-cesarsoto123789456@gmail.com
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
