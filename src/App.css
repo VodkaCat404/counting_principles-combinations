@@ -1,0 +1,171 @@
+/*
+# App
+*/
+
+.app{
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.components-container{
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+/*
+# Header
+*/
+
+.header{
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header h1{
+  color: #007bff;
+}
+
+/*
+# Footer
+*/
+
+.footer{
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer nav{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer nav a{
+  text-decoration: none;
+}
+
+/*
+# Main
+*/
+
+main{
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dinamic-container{
+  height: 80%;
+}
+
+.static-button{
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ?Combinations */
+/* The switch - the box around the slider */
+.switch {
+  font-size: 0.55rem;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  border: 1px solid #adb5bd;
+  transition: 0.4s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 20px;
+  left: 0.27em;
+  bottom: 0.25em;
+  background-color: #adb5bd;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #007bff;
+  border: 1px solid #007bff;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #007bff;
+}
+
+input:checked + .slider:before {
+  transform: translateX(1.4em);
+  background-color: #fff;
+}
+
+.container-input{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-input input{
+  width: 50%;
+}
+
+/*
+# Buttons
+*/
+
+.element-type-button {
+  --bg: #007bff;
+  --text-color: #fff;
+  position: relative;
+  width: 150px;
+  border: none;
+  background: var(--bg);
+  color: var(--text-color);
+  padding: 6px;
+  font-weight: bold;
+  transition: 0.2s;
+  border-radius: 16px;
+  opacity: 0.8;
+  box-shadow: #007bff 0px 7px 2px, #000 0px 8px 5px;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+button:active {
+  top: 4px;
+  box-shadow: #007bff 0px 3px 2px,#000 0px 3px 5px;
+}

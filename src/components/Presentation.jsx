@@ -7,7 +7,7 @@ function Presentation() {
         <h3>Profesor: Dr. Ernesto Urenda Cázares</h3>
       </article>
       <article>
-        metere aca imagenes
+        <img src="https://matemovil.com/wp-content/uploads/2018/10/combinacinoes-f%C3%B3rmula.jpg" alt="Imagen" />
       </article>
     </>
   );

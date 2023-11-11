@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Combinations from './Combinations';
 import Presentation from './Presentation';
 
@@ -11,12 +11,14 @@ function MainContent() {
 
   return (
     <main>
-      <button onClick={handleClick}>
-        {screen === "Regresar al inicio" ? "Ir a calcular" : "Regresar al inicio"}
-      </button>
-      <section>
-        {screen === "Regresar al inicio" ? <Presentation /> : <Combinations />}
-      </section>
+      <div className='dinamic-container'>
+        <button className='static-button element-type-button' onClick={handleClick}>
+          {screen === "Regresar al inicio" ? "Ir a calcular" : "Regresar al inicio"}
+        </button>
+        <section>
+          {screen === "Regresar al inicio" ? <Presentation /> : <Combinations />}
+        </section>
+      </div>
     </main>
   );
 }
