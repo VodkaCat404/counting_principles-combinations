@@ -44,13 +44,25 @@
 }
 
 .footer nav{
-  width: 80%;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .footer nav a{
   text-decoration: none;
+}
+
+.footer{
+  border-top: 2px solid #007bff;
+}
+
+.footer a{
+  color: #007bff;
+}
+
+.footer a:hover{
+  text-decoration: underline;
 }
 
 /*
@@ -62,6 +74,21 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.highlighted-text{
+  color: #007bff;
+  font-variant: small-caps;
+}
+
+.container-image{
+  display: flex;
+  justify-content: center;
+}
+
+.image-footer{
+  color: #007bff87;
+  text-align: center;
 }
 
 .dinamic-container{
@@ -77,6 +104,11 @@ main{
 
 /* ?Combinations */
 /* The switch - the box around the slider */
+.container-switch{
+  display: flex;
+  gap: 1rem;
+}
+
 .switch {
   font-size: 0.55rem;
   position: relative;
@@ -132,13 +164,39 @@ input:checked + .slider:before {
   background-color: #fff;
 }
 
+/** Inputs form */
+
 .container-input{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.container-input label{
+  color: #007bff;
+  font-weight: 600;
 }
 
 .container-input input{
-  width: 50%;
+  width: 45%;
+}
+
+.container-input input::placeholder{
+  color: #64afff92;
+}
+
+input[type=number]:focus {
+  outline: none;
+  border-bottom: 3px solid #007bff;
+}
+
+.container-input input{
+  border: none;
+  border-bottom: 1px solid #007bff;
+}
+
+.submit-button{
+  margin-top: 2rem;
 }
 
 /*
@@ -161,11 +219,11 @@ input:checked + .slider:before {
   box-shadow: #007bff 0px 7px 2px, #000 0px 8px 5px;
 }
 
-button:hover {
+.element-type-button:hover {
   opacity: 1;
 }
 
-button:active {
+.element-type-button:active {
   top: 4px;
   box-shadow: #007bff 0px 3px 2px,#000 0px 3px 5px;
 }
